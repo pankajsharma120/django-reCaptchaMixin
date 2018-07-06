@@ -1,3 +1,6 @@
+from django.contrib.auth.mixins import AccessMixin
+import requests
+
 
 class CheckRecaptchaMixin(AccessMixin):
 
